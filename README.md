@@ -10,7 +10,7 @@ ESP_32_WiFi_Automation is a **Wi-Fi enabled automation system using the ESP32 mi
 - Uses ESP32’s built-in Wi-Fi for responsive remote control
 - Easy to configure and extend for custom hardware
 
-> *Typical ESP32 Wi-Fi automation projects let users control connected relays and devices through a hosted web server once the ESP32 connects to Wi-Fi.* :contentReference[oaicite:0]{index=0}
+> *Typical ESP32 Wi-Fi automation projects let users control connected relays and devices through a hosted web server once the ESP32 connects to Wi-Fi.
 
 ## 📦 Repository Structure
 
@@ -23,7 +23,7 @@ ESP_32_WiFi_Automation/
 
 ## 🛠️ Requirements
 
-- ESP32 development board (e.g., **ESP32 DevKit V1**) :contentReference[oaicite:1]{index=1}
+- ESP32 development board (e.g., **ESP32 DevKit V1**) 
 - **PlatformIO** for development and building
 - USB cable for programming
 - Optional: Relay modules, sensors, actuators, LEDs, etc.
