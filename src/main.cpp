@@ -26,8 +26,8 @@ WiFiCred wifiList[] = {
 const int WIFI_COUNT = sizeof(wifiList) / sizeof(wifiList[0]);
 
 // ================= FIREBASE =================
-#define DATABASE_URL "https://esp-32-e4280-default-rtdb.firebaseio.com/"
-#define DATABASE_SECRET "xn74imGcBTVZGvVocvBT8pL3ztJX7rskJy7WdEsa"
+#define DATABASE_URL "DATABASE_URL"
+#define DATABASE_SECRET "FIREBASE_DATABASE_SECRET_KEY"
 
 // ================= OBJECTS =================
 FirebaseData fbdo;
@@ -205,5 +205,6 @@ void loop() {
 
   delay(300);
 }
+
 
 
