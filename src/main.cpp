@@ -74,7 +74,7 @@ bool connectToWiFi() {
 
     Serial.println("\nFailed, trying next network...");
     WiFi.disconnect(true);
-    delay(1000);
+    delay(900);
   }
 
   Serial.println("\nNo WiFi network connected");
@@ -132,7 +132,7 @@ void arcReactorLoop() {
   }
 
   display.display();
-  delay(60);
+  delay(70);
 }
 
 // ================= FIREBASE READ =================
@@ -162,7 +162,7 @@ void readFirebase() {
 // ================= SETUP =================
 void setup() {
   Serial.begin(115200);
-  delay(1000);
+  delay(957);
 
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, LOW);
@@ -205,4 +205,5 @@ void loop() {
 
   delay(300);
 }
+
 
