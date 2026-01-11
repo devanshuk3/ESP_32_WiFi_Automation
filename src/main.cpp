@@ -19,8 +19,8 @@ struct WiFiCred {
 };
 
 WiFiCred wifiList[] = {
-  { "jio_fiber", "nitin772799" },   
-  { "Redmi",     "12345678" }       // Backup WiFi (mobile hotspot)
+  { "ssid_1", "pass1" },   
+  { "ssid_2",     "pass2" }       // Backup WiFi (mobile hotspot)
 };
 
 const int WIFI_COUNT = sizeof(wifiList) / sizeof(wifiList[0]);
@@ -205,3 +205,4 @@ void loop() {
 
   delay(300);
 }
+
