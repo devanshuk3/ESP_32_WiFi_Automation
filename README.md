@@ -1,6 +1,6 @@
 # ESP_32_WiFi_Automation
 
-ESP_32_WiFi_Automation is a **Wi-Fi enabled automation system using the ESP32 microcontroller**. This project lets you control hardware (e.g., relays, LEDs, motors, appliances) over Wi-Fi by hosting a web interface or API on the ESP32. Built with **PlatformIO** and written in **C++**, it runs on the ESP32 dev board and is perfect for DIY IoT and home automation projects.
+ESP_32_WiFi_Automation is a **Wi-Fi enabled automation system using the ESP32 microcontroller**. This project lets you control hardware (e.g., relays, LEDs, motors, appliances) over Wi-Fi by hosting a web interface or API on the ESP32. Built with **PlatformIO** and written in **C++**, it runs on the ESP32 dev board and is perfect for DIY IoT and home automation project.
 
 ## 🚀 Features
 
